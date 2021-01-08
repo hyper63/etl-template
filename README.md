@@ -27,6 +27,16 @@ etl
 
 > NOTE: It is very important to change the name of your app, also change the rate of your scheduled ETL Job in this file if different than daily.
 
+## Developer Setup Requirements
+
+> NOTE: nodejs and aws-cli are required see https://nodejs.org and https://aws.amazon.com/cli/
+
+```
+cd src
+npm install -g @architect/architect
+npm install
+```
+
 ## Setting up Environment Variables
 
 This tempate is setup to leverage environment variables for the job specialized configuration information.
